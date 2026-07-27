@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "LM61495") (type "KiCad") (uri "${KIPRJMOD}/Libs/LM61495RPHWR/2026-07-23_18-18-08.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS54302DDCR") (type "KiCad") (uri "${KIPRJMOD}/Libs/TPS5450/TPS54302DDCR.kicad_sym") (options "") (descr ""))
+)
