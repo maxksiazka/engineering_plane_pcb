@@ -1,4 +1,5 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "TPS54302") (type "KiCad") (uri "${KIPRJMOD}/Libs/TPS5450/TPS54302.pretty") (options "") (descr ""))
+	(lib (name "TPS54302") (type "KiCad") (uri "${KIPRJMOD}/Libs/TPS5450/TPS54302.pretty") (options "") (descr "") (disabled))
+	(lib (name "eng_plane_lib") (type "KiCad") (uri "${KIPRJMOD}/eng_plane_lib/footprints.pretty") (options "") (descr ""))
 )
