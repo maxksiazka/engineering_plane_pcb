@@ -1226,10 +1226,22 @@
 		(uuid "2dc2de06-dc27-4b19-8c07-b8e88c923c8a")
 	)
 	(junction
+		(at 130.81 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40f4b8cd-ecb3-4667-87b7-49806fdd8e94")
+	)
+	(junction
 		(at 111.76 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a6908e8-f3a9-4753-a7ba-452f08b064fe")
+	)
+	(junction
+		(at 133.35 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739ffa52-e50c-4071-8ef7-b0b07ccf59e1")
 	)
 	(junction
 		(at 127 74.93)
@@ -1256,6 +1268,16 @@
 	(no_connect
 		(at 125.73 67.31)
 		(uuid "aaa7b7a7-2b09-4a7a-9092-c220f809687a")
+	)
+	(wire
+		(pts
+			(xy 113.03 48.26) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f106d5-3080-49e4-8ca9-a34863ba8e80")
 	)
 	(wire
 		(pts
@@ -1309,6 +1331,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 102.87) (xy 133.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9bde00-49f9-43fe-aeaf-d0452d1990d4")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 133.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5184c217-1462-4846-a15f-9c77e83ef2a2")
+	)
+	(wire
+		(pts
 			(xy 113.03 95.25) (xy 113.03 92.71)
 		)
 		(stroke
@@ -1316,6 +1358,16 @@
 			(type default)
 		)
 		(uuid "55d1cf02-553b-4c0a-99d4-7b2cbf627740")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5f7369-7e37-4caf-b7de-62b2efbf79a6")
 	)
 	(wire
 		(pts
@@ -1369,7 +1421,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 74.93) (xy 142.24 74.93)
+			(xy 133.35 74.93) (xy 142.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b60d90-fe5f-4b96-87a2-52d1a15f421d")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a5a04f-3a1e-4402-bde1-d504ddc928be")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 130.81 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3826,6 +3898,16 @@
 			"AAs4CoWC7QwAAAAAa84/TuHaJOotjcQAAAAASUVORK5CYII="
 		)
 	)
+	(label "filter_3v3"
+		(at 130.81 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3334dcda-6a5c-42ca-a201-f89594c3f20d")
+	)
 	(hierarchical_label "BMI_SDA"
 		(shape bidirectional)
 		(at 107.95 52.07 90)
@@ -3871,7 +3953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08966f06-276b-44ed-addf-907cf6fb0739")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 142.24 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3931,85 +4013,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/a759a096-c40b-4f10-8a53-3aaa1ae105c2"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 113.03 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32b3ed61-3568-4c97-befc-66dad5241263")
-		(property "Reference" "#PWR038"
-			(at 113.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 113.03 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.03 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7f3f56a-990f-40fd-b85f-bd2aa9b06d30")
-		)
-		(instances
-			(project "engineering_plane"
-				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/a759a096-c40b-4f10-8a53-3aaa1ae105c2"
-					(reference "#PWR038")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4027,7 +4031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bfd5001-c7f9-45d1-be6f-eb7cfb4b6462")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4087,7 +4091,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/a759a096-c40b-4f10-8a53-3aaa1ae105c2"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4274,85 +4278,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 107.95 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75ef0247-376a-4908-8b9d-984d9cc117a4")
-		(property "Reference" "#PWR036"
-			(at 111.76 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 104.14 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 107.95 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "135acedc-26eb-4e13-bbf4-f57a7a2741fc")
-		)
-		(instances
-			(project "engineering_plane"
-				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/a759a096-c40b-4f10-8a53-3aaa1ae105c2"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 142.24 78.74 0)
 		(unit 1)
@@ -4444,7 +4369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91bc7c5e-9aed-4eda-b488-5b15bac65663")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 156.21 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4504,7 +4429,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/a759a096-c40b-4f10-8a53-3aaa1ae105c2"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4601,7 +4526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af9edb41-8d23-4a05-95d7-e1bcc5e1cb45")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 93.98 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4661,7 +4586,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/a759a096-c40b-4f10-8a53-3aaa1ae105c2"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4779,7 +4704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb278c30-76f0-4911-9bd0-f372b2188b81")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 127 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4839,7 +4764,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/a759a096-c40b-4f10-8a53-3aaa1ae105c2"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4936,7 +4861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe57654-17e6-40f3-8d5e-aaa36dc2582b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR038"
 			(at 88.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4996,7 +4921,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/a759a096-c40b-4f10-8a53-3aaa1ae105c2"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
