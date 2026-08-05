@@ -807,7 +807,7 @@
         "uuid": "f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a"
       }
     ],
-    "used_designators": "#FLG1,H1-4,IC1-4,R1-24,L1-6,#PWR1-82,J1-15,U1-4,D1-4,C1-41,A1",
+    "used_designators": "#FLG1,H1-4,IC1-4,R1-32,L1-6,#PWR1-89,J1-15,U1-4,D1-4,C1-41,A1",
     "variants": []
   },
   "sheets": [
@@ -816,20 +816,28 @@
       "engineering_plane"
     ],
     [
-      "a759a096-c40b-4f10-8a53-3aaa1ae105c2",
+      "d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad",
       "bmi270"
     ],
     [
-      "17a1f6e8-be7f-45e0-8145-883b86734d8a",
-      "bmp390"
+      "225c3c49-48ba-4300-a655-407153bb93d3",
+      "bmp581"
     ],
     [
-      "a8884140-4da9-49d2-8de3-8d91ee78d46d",
+      "ab5c4772-15ec-4a1e-9676-74a5def5e337",
       "servos"
     ],
     [
-      "d04d59e8-7cdf-48e0-9592-4dccb7b4f225",
+      "09acce93-3dbb-42b8-b45b-08d3ba226062",
       "mmc"
+    ],
+    [
+      "9c29d4f9-b687-4678-a7ec-dae4a703e307",
+      "SD card"
+    ],
+    [
+      "483367d2-f4b0-4683-a959-07aa29938e41",
+      "POWER"
     ]
   ],
   "text_variables": {},
