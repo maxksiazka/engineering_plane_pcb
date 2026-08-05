@@ -4731,7 +4731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5"
+		(property "Footprint" "eng_plane_lib:7447714220"
 			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
