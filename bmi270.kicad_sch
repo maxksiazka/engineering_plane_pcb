@@ -1220,28 +1220,28 @@
 		(uuid "0431aaa7-a349-4621-ac9e-d93f4ba4e911")
 	)
 	(junction
+		(at 152.4 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c5fb891-76f6-403a-b39b-9647f98c90cb")
+	)
+	(junction
+		(at 156.21 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "228f70ac-20cd-4592-9ec4-ef03a9b18b1d")
+	)
+	(junction
 		(at 107.95 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dc2de06-dc27-4b19-8c07-b8e88c923c8a")
 	)
 	(junction
-		(at 130.81 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40f4b8cd-ecb3-4667-87b7-49806fdd8e94")
-	)
-	(junction
 		(at 111.76 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a6908e8-f3a9-4753-a7ba-452f08b064fe")
-	)
-	(junction
-		(at 133.35 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "739ffa52-e50c-4071-8ef7-b0b07ccf59e1")
 	)
 	(junction
 		(at 127 74.93)
@@ -1271,7 +1271,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 48.26) (xy 130.81 48.26)
+			(xy 152.4 74.93) (xy 149.86 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0722a24b-aab7-4758-8ff5-97c1a1da7b98")
+	)
+	(wire
+		(pts
+			(xy 113.03 48.26) (xy 152.4 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1331,26 +1341,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 133.35 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e9bde00-49f9-43fe-aeaf-d0452d1990d4")
-	)
-	(wire
-		(pts
-			(xy 130.81 74.93) (xy 133.35 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5184c217-1462-4846-a15f-9c77e83ef2a2")
-	)
-	(wire
-		(pts
 			(xy 113.03 95.25) (xy 113.03 92.71)
 		)
 		(stroke
@@ -1361,13 +1351,23 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 102.87) (xy 133.35 102.87)
+			(xy 107.95 102.87) (xy 156.21 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5c5f7369-7e37-4caf-b7de-62b2efbf79a6")
+	)
+	(wire
+		(pts
+			(xy 156.21 102.87) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d656912-0d6e-45a8-ae98-74c9350fa3c0")
 	)
 	(wire
 		(pts
@@ -1381,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 74.93) (xy 149.86 74.93)
+			(xy 156.21 74.93) (xy 152.4 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1421,27 +1421,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 74.93) (xy 142.24 74.93)
+			(xy 152.4 48.26) (xy 152.4 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5b60d90-fe5f-4b96-87a2-52d1a15f421d")
+		(uuid "bd2e26d7-ad9a-4d0d-9a37-6689fe1d5c36")
 	)
 	(wire
 		(pts
-			(xy 130.81 48.26) (xy 130.81 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1a5a04f-3a1e-4402-bde1-d504ddc928be")
-	)
-	(wire
-		(pts
-			(xy 127 74.93) (xy 130.81 74.93)
+			(xy 127 74.93) (xy 142.24 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3899,14 +3889,14 @@
 		)
 	)
 	(label "filter_3v3"
-		(at 130.81 48.26 0)
+		(at 133.35 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3334dcda-6a5c-42ca-a201-f89594c3f20d")
+		(uuid "c25c78a5-fd20-45d7-b610-8e0de3f9a808")
 	)
 	(hierarchical_label "BMI_SDA"
 		(shape bidirectional)
@@ -3953,7 +3943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08966f06-276b-44ed-addf-907cf6fb0739")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR042"
 			(at 142.24 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4013,7 +4003,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "#PWR052")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4031,7 +4021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bfd5001-c7f9-45d1-be6f-eb7cfb4b6462")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR040"
 			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4091,7 +4081,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "#PWR050")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4278,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "789fca96-7aee-4949-94de-8316b71ccbd3")
-		(property "Reference" "C24"
+		(property "Reference" "C10"
 			(at 135.382 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4352,7 +4342,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "C24")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4369,7 +4359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91bc7c5e-9aed-4eda-b488-5b15bac65663")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR043"
 			(at 156.21 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4429,7 +4419,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "#PWR053")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4446,7 +4436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a99e2cc4-8f0f-447d-b001-275376629cca")
-		(property "Reference" "C22"
+		(property "Reference" "C8"
 			(at 103.632 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,7 +4498,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "C22")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4526,7 +4516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af9edb41-8d23-4a05-95d7-e1bcc5e1cb45")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR039"
 			(at 93.98 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4586,7 +4576,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "#PWR049")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4603,7 +4593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6a5c8c7-b308-4478-81fa-5a3ebd54e52c")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 147.32 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,7 +4613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
 			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4686,7 +4676,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4704,7 +4694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb278c30-76f0-4911-9bd0-f372b2188b81")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR041"
 			(at 127 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4764,7 +4754,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "#PWR051")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4781,7 +4771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbe3ac1f-5453-4355-8ec3-84e3ded99db0")
-		(property "Reference" "C23"
+		(property "Reference" "C9"
 			(at 131.826 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,7 +4833,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "C23")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4861,7 +4851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe57654-17e6-40f3-8d5e-aaa36dc2582b")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR038"
 			(at 88.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4921,7 +4911,7 @@
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/d92f5ceb-a3bf-4490-a03e-54e85bc3d6ad"
-					(reference "#PWR048")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
