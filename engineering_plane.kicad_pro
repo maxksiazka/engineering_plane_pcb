@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 3.9,
-          "width": 3.9
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
+          "corner_radius": 0.0,
           "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.2,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.3
         }
@@ -76,7 +76,68 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "missing_courtyard|101000000|102000000|ae1b7f4a-bf4b-4cd8-9312-428b2a8f1844|00000000-0000-0000-0000-000000000000",
+          "Tooling hole footprint"
+        ],
+        [
+          "missing_courtyard|101000000|51000000|6d08e7eb-1a44-456f-b777-0f5029d49d11|00000000-0000-0000-0000-000000000000",
+          "Tooling hole footprint"
+        ],
+        [
+          "missing_courtyard|199000000|51000000|b20d469e-c536-4ddf-8de0-80f373c06079|00000000-0000-0000-0000-000000000000",
+          "Tooling hole footprint"
+        ],
+        [
+          "silk_edge_clearance|158716000|49950000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|3530cc9f-d515-4a8e-bbeb-f50212f5beb8",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|158725000|103050000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|0e847354-2bfe-45ca-9601-89b235992a8c",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|158725000|103050000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|5581b3eb-06e1-4e11-983e-94ff79b09c9e",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|166187000|49950000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|6879c16a-5784-4376-bbc4-497cea484cb8",
+          ""
+        ],
+        [
+          "silk_edge_clearance|166187000|49950000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|84a4b63c-dca3-41f6-b1bd-e484cb132359",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|166196000|103050000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|30916bfa-33a1-491c-bc4a-8bfe8ef6f25f",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|168716000|49950000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|928748a8-1c44-467c-b467-a0380575bca9",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|168725000|103050000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|3869fe45-3f32-4dce-99bf-2b5f5c2ade1c",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|168725000|103050000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|49376631-1d8a-4649-82e6-b3abc6489b9f",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|176187000|49950000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|78236d6b-42fb-4746-acfb-a70140da56fb",
+          "Overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|176187000|49950000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|eedd01db-d462-4803-9d5e-3c37118b9185",
+          "overhanging connector"
+        ],
+        [
+          "silk_edge_clearance|176196000|103050000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|0cb094ce-4b2b-4d5e-b134-8e616eff067d",
+          "Overhanging connector"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -493,7 +554,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -656,6 +717,10 @@
       {
         "netclass": "PWR",
         "pattern": "/bmp581/filter_3v3"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VBATT"
       }
     ]
   },
@@ -952,7 +1017,7 @@
         "uuid": "f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a"
       }
     ],
-    "used_designators": "A1,A801,C1-42,C101-105,C201-203,C301-303,C501-504,C601-603,C701-718,D1-4,D101-102,D801-804,U1-4,U301,U701-702,J1-15,J101-105,J401-404,J601,J801-802,J901,J1001-1002,J1101,J1201,J1301,FB1,FB201,FB301,FB501,#PWR1-92,#PWR101-112,#PWR201-206,#PWR301-307,#PWR401-412,#PWR501-507,#PWR601-610,#PWR701-717,#PWR801-811,#PWR901-904,#PWR1001-1003,#PWR1101-1102,#PWR1201-1203,#PWR1301-1304,L1-6,L701-702,TP201-202,TP501-503,TP801-804,R1-34,R101-104,R401-408,R601-607,R701-704,R801-808,R901-903,R1001-1002,R1101-1102,IC1-4,IC201,IC501,IC701,H1-4,H101-107,#FLG1-2,#FLG101,#FLG801",
+    "used_designators": "A1,A801,C1-42,C101-105,C201-203,C301-303,C501-504,C601-603,C701-718,D1-4,D101-102,D801-804,U1-4,U301,U701-702,J1-15,J101-105,J401-404,J601,J801-802,J901,J1001-1002,J1101,J1201,J1301,FB1,FB201,FB301,FB501,#PWR1-92,#PWR101-112,#PWR201-206,#PWR301-307,#PWR401-412,#PWR501-507,#PWR601-610,#PWR701-717,#PWR801-811,#PWR901-904,#PWR1001-1003,#PWR1101-1102,#PWR1201-1203,#PWR1301-1304,L1-6,L701-702,TP201-202,TP501-503,TP701-703,TP801-804,R1-34,R101-104,R401-408,R601-607,R701-704,R801-808,R901-903,R1001-1002,R1101-1102,IC1-4,IC201,IC501,IC701,H1-4,H101-107,#FLG1-2,#FLG101,#FLG801",
     "variants": []
   },
   "sheets": [

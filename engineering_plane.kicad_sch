@@ -3832,6 +3832,16 @@
 		)
 		(uuid "8cdff2ae-ec04-46e4-9bc1-b3c0ef01f251")
 	)
+	(wire
+		(pts
+			(xy 267.97 153.67) (xy 267.97 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924b02f1-8bf0-4a2f-ad07-f34df5a8535f")
+	)
 	(bus
 		(pts
 			(xy 182.88 66.04) (xy 184.15 66.04)
