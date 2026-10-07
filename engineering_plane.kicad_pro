@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "height": 1.508,
+          "width": 1.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,7 +76,64 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "missing_courtyard|101000000|102000000|ae1b7f4a-bf4b-4cd8-9312-428b2a8f1844|00000000-0000-0000-0000-000000000000",
+          "Wyjebane, jest git"
+        ],
+        [
+          "missing_courtyard|101000000|51000000|6d08e7eb-1a44-456f-b777-0f5029d49d11|00000000-0000-0000-0000-000000000000",
+          "Wyjebane, jest git"
+        ],
+        [
+          "missing_courtyard|199000000|51000000|b20d469e-c536-4ddf-8de0-80f373c06079|00000000-0000-0000-0000-000000000000",
+          "Wyjebane, jest git"
+        ],
+        [
+          "silk_edge_clearance|154575000|50000000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|3530cc9f-d515-4a8e-bbeb-f50212f5beb8",
+          "Wyjebane, jest git"
+        ],
+        [
+          "silk_edge_clearance|155450000|103000000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|d2bb7609-c324-4a4b-a990-4f2a039d6d0d",
+          "Wyjebane, jest git"
+        ],
+        [
+          "silk_edge_clearance|164475000|50000000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|bf659d94-9525-4a19-8403-db6ddc6c156b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|165350000|103000000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|729a4ca9-392e-4e6e-a8d6-63a5b56f2d41",
+          "Wyjebane, jest git"
+        ],
+        [
+          "silk_edge_clearance|166600000|50000000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|78236d6b-42fb-4746-acfb-a70140da56fb",
+          "Wyjebane, jest git"
+        ],
+        [
+          "silk_edge_clearance|167462000|103000000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|4441743c-09a4-4dbd-bf02-cd5b67c34158",
+          "Wyjebane, jest git"
+        ],
+        [
+          "silk_edge_clearance|176500000|50000000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|7c7a4547-926e-455b-a91e-4b2fe460b3f6",
+          "Wyjebane, jest git"
+        ],
+        [
+          "silk_edge_clearance|177362000|103000000|b8e8ae3a-cd2c-49d9-9186-2d29c919c30d|49376631-1d8a-4649-82e6-b3abc6489b9f",
+          "Wyjebane, jest git"
+        ],
+        [
+          "silk_over_copper|113925552|85872400|ea36edc6-01a4-4798-adfb-3dd620e8db55|037f65ba-1b97-43da-8afa-4d5109d4cab4",
+          "Wyjebane"
+        ],
+        [
+          "silk_over_copper|113975000|92100000|9cc780a1-c9d5-47ec-9bac-88c2754929fe|a757d09c-6252-4a0c-8c30-d06b7850128e",
+          "Wyjebane"
+        ],
+        [
+          "silk_over_copper|122450000|54160000|e548cc48-7d25-4775-9cfa-8b28e982c56f|5080ee3a-b798-4a8a-8a9a-6ae5cf814c13",
+          "Wyjebane"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -956,7 +1013,7 @@
         "uuid": "f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a"
       }
     ],
-    "used_designators": "#FLG1-2,#FLG101,#FLG801,H1-4,H101-107,IC1-4,IC201,IC501,IC701,R1-34,R101-104,R401-408,R601-607,R701-704,R801-808,R901-903,R1001-1002,R1101-1102,TP201-202,TP501-503,TP701-703,TP801-804,#PWR1-92,#PWR101-112,#PWR201-206,#PWR301-307,#PWR401-412,#PWR501-507,#PWR601-610,#PWR701-717,#PWR801-811,#PWR901-904,#PWR1001-1003,#PWR1101-1102,#PWR1201-1203,#PWR1301-1304,L1-6,L701-702,FB1,FB201,FB301,FB501,J1-15,J101-105,J401-404,J601,J801-802,J901,J1001-1002,J1101,J1201,J1301,U1-4,U301,U701-702,D1-4,D101-102,D801-804,C1-42,C101-105,C201-203,C301-303,C501-504,C601-603,C701-718,PN101,A1,A801",
+    "used_designators": "J1-15,J101-105,J401-404,J601,J801-802,J901,J1001-1002,J1101,J1201,J1301,C1-42,C101-105,C201-203,C301-303,C501-504,C601-603,C701-718,A1,A801,PN101,D1-4,D101-102,D801-804,U1-4,U301,U701-702,#FLG1-2,#FLG101,#FLG801,H1-4,H101-107,IC1-4,IC201,IC501,IC701,R1-34,R101-104,R401-408,R601-607,R701-704,R801-808,R901-903,R1001-1002,R1101-1102,TP201-202,TP501-503,TP701-703,TP801-804,#PWR1-92,#PWR101-112,#PWR201-206,#PWR301-307,#PWR401-412,#PWR501-507,#PWR601-610,#PWR701-717,#PWR801-811,#PWR901-904,#PWR1001-1003,#PWR1101-1102,#PWR1201-1203,#PWR1301-1304,L1-6,L701-702,FB1,FB201,FB301,FB501",
     "variants": []
   },
   "sheets": [

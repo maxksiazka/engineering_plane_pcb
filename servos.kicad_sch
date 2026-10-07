@@ -639,7 +639,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eng_plane_lib:171857-0003"
+		(symbol "eng_plane_lib:S3B-XH-A-1__LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -656,7 +656,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "171857-0003"
+			(property "Value" "S3B-XH-A-1__LF__SN_"
 				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -667,7 +667,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "1718570003"
+			(property "Footprint" "S3BXHA1LFSN"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -679,7 +679,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//1718570003_PCB_HEADERS.pdf"
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 				(at 16.51 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -691,7 +691,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "KK 254 RPC Pin Header right angle 3way Molex 171857 Series, 2.54mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 4A"
+			(property "Description" "Conn Shrouded Header HDR 3 POS 2.5mm Solder RA Thru-Hole Box"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -702,7 +702,7 @@
 					)
 				)
 			)
-			(property "Height" "6.35"
+			(property "Height" "6.1"
 				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -714,7 +714,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "538-171857-0003"
+			(property "TME Electronic Components Part Number" ""
 				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -726,7 +726,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-0003?qs=vOeJqewp7jDlEJ%252B5k08q3w%3D%3D"
+			(property "TME Electronic Components Price/Stock" ""
 				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -738,7 +738,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Molex"
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
 				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -750,7 +750,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "171857-0003"
+			(property "Manufacturer_Part_Number" "S3B-XH-A-1 (LF)(SN)"
 				(at 16.51 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -762,7 +762,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "171857-0003_1_1"
+			(symbol "S3B-XH-A-1__LF__SN__1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -7.62)
@@ -2262,8 +2262,8 @@
 		)
 	)
 	(symbol
-		(lib_id "eng_plane_lib:171857-0003")
-		(at 133.35 48.26 0)
+		(lib_id "eng_plane_lib:S3B-XH-A-1__LF__SN_")
+		(at 133.35 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2272,9 +2272,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "448500e5-4466-4cf2-82aa-a529dc590977")
-		(property "Reference" "J401"
-			(at 149.86 49.5299 0)
+		(uuid "36460b96-9968-468b-b221-8521a81315f8")
+		(property "Reference" "J403"
+			(at 149.86 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2284,8 +2284,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "171857-0003"
-			(at 149.86 52.0699 0)
+		(property "Value" "S3B-XH-A-1__LF__SN_"
+			(at 149.86 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2295,8 +2295,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "eng_plane_lib:1718570003"
-			(at 149.86 143.18 0)
+		(property "Footprint" "eng_plane_lib:S3BXHA1LFSN"
+			(at 149.86 190.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,8 +2307,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//1718570003_PCB_HEADERS.pdf"
-			(at 149.86 243.18 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 149.86 290.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,8 +2319,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "KK 254 RPC Pin Header right angle 3way Molex 171857 Series, 2.54mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 4A"
-			(at 133.35 48.26 0)
+		(property "Description" "Conn Shrouded Header HDR 3 POS 2.5mm Solder RA Thru-Hole Box"
+			(at 133.35 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,20 +2330,8 @@
 				)
 			)
 		)
-		(property "Height" "6.35"
-			(at 149.86 443.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "538-171857-0003"
-			(at 149.86 543.18 0)
+		(property "Height" "6.1"
+			(at 149.86 490.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2354,8 +2342,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-0003?qs=vOeJqewp7jDlEJ%252B5k08q3w%3D%3D"
-			(at 149.86 643.18 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 149.86 590.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2366,8 +2354,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
-			(at 149.86 743.18 0)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 149.86 690.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2378,8 +2366,20 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "171857-0003"
-			(at 149.86 843.18 0)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 149.86 790.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S3B-XH-A-1 (LF)(SN)"
+			(at 149.86 890.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,165 +2391,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "31448f9a-75c5-4ff7-a675-9ad0b75b3678")
+			(uuid "84009008-d279-4fdc-bd6c-c0c4d11fb0b9")
 		)
 		(pin "1"
-			(uuid "f5462ad4-b158-4fbe-874b-f1cb756d4758")
+			(uuid "531b16a3-969b-46e4-84e9-a31a26fa0d09")
 		)
 		(pin "3"
-			(uuid "3a7cd20e-ba33-4443-b3eb-a0dab6ad7d3d")
+			(uuid "f589163e-78f2-4119-bb7e-1c1efd2a3726")
 		)
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
-					(reference "J401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "eng_plane_lib:171857-0003")
-		(at 133.35 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b5707e7-03d6-4724-ab61-137f06aeaa33")
-		(property "Reference" "J404"
-			(at 149.86 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "171857-0003"
-			(at 149.86 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "eng_plane_lib:1718570003"
-			(at 149.86 218.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//1718570003_PCB_HEADERS.pdf"
-			(at 149.86 318.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "KK 254 RPC Pin Header right angle 3way Molex 171857 Series, 2.54mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 4A"
-			(at 133.35 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "6.35"
-			(at 149.86 518.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "538-171857-0003"
-			(at 149.86 618.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-0003?qs=vOeJqewp7jDlEJ%252B5k08q3w%3D%3D"
-			(at 149.86 718.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 149.86 818.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "171857-0003"
-			(at 149.86 918.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "f4c08478-0e72-44ff-ab29-5aa663af12c9")
-		)
-		(pin "1"
-			(uuid "b8c2ef8b-b9c3-43cc-be66-8cd162b34051")
-		)
-		(pin "3"
-			(uuid "a44d6a02-4ca2-4ff1-a917-50e9e23474e6")
-		)
-		(instances
-			(project "engineering_plane"
-				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
-					(reference "J404")
+					(reference "J403")
 					(unit 1)
 				)
 			)
@@ -2627,153 +2480,6 @@
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
 					(reference "#PWR0412")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "eng_plane_lib:171857-0003")
-		(at 133.35 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64a70863-13ac-4f14-992c-ca0b3eb6dfff")
-		(property "Reference" "J402"
-			(at 149.86 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "171857-0003"
-			(at 149.86 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "eng_plane_lib:1718570003"
-			(at 149.86 168.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//1718570003_PCB_HEADERS.pdf"
-			(at 149.86 268.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "KK 254 RPC Pin Header right angle 3way Molex 171857 Series, 2.54mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 4A"
-			(at 133.35 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "6.35"
-			(at 149.86 468.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "538-171857-0003"
-			(at 149.86 568.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-0003?qs=vOeJqewp7jDlEJ%252B5k08q3w%3D%3D"
-			(at 149.86 668.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 149.86 768.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "171857-0003"
-			(at 149.86 868.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "7ed3ab02-5952-4e01-924a-b6d0142be1c8")
-		)
-		(pin "1"
-			(uuid "6421f7d5-7711-43bf-8036-c3c8f7d4e63d")
-		)
-		(pin "3"
-			(uuid "805d1642-101d-45cf-ba37-c13b6407b3a5")
-		)
-		(instances
-			(project "engineering_plane"
-				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
-					(reference "J402")
 					(unit 1)
 				)
 			)
@@ -3005,6 +2711,153 @@
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
 					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eng_plane_lib:S3B-XH-A-1__LF__SN_")
+		(at 133.35 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86ae2d8d-a79e-4e84-b41e-de8d01c85893")
+		(property "Reference" "J401"
+			(at 149.86 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S3B-XH-A-1__LF__SN_"
+			(at 149.86 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "eng_plane_lib:S3BXHA1LFSN"
+			(at 149.86 143.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 149.86 243.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Conn Shrouded Header HDR 3 POS 2.5mm Solder RA Thru-Hole Box"
+			(at 133.35 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.1"
+			(at 149.86 443.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 149.86 543.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 149.86 643.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 149.86 743.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S3B-XH-A-1 (LF)(SN)"
+			(at 149.86 843.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "18867c08-2307-4255-97a3-dac2ac1561ac")
+		)
+		(pin "1"
+			(uuid "2f5b76b5-294b-4281-9eb5-7a7ac53bd3ac")
+		)
+		(pin "3"
+			(uuid "ae14cfcd-af23-4c7b-86c6-9dcdce174a57")
+		)
+		(instances
+			(project "engineering_plane"
+				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -3623,8 +3476,8 @@
 		)
 	)
 	(symbol
-		(lib_id "eng_plane_lib:171857-0003")
-		(at 133.35 95.25 0)
+		(lib_id "eng_plane_lib:S3B-XH-A-1__LF__SN_")
+		(at 133.35 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3633,9 +3486,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c021c36a-9bb0-4f05-af1f-cf190457298b")
-		(property "Reference" "J403"
-			(at 149.86 96.5199 0)
+		(uuid "b33963d0-8cb0-409b-9d62-f968f3e63367")
+		(property "Reference" "J404"
+			(at 149.86 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3645,8 +3498,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "171857-0003"
-			(at 149.86 99.0599 0)
+		(property "Value" "S3B-XH-A-1__LF__SN_"
+			(at 149.86 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3656,8 +3509,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "eng_plane_lib:1718570003"
-			(at 149.86 190.17 0)
+		(property "Footprint" "eng_plane_lib:S3BXHA1LFSN"
+			(at 149.86 218.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,8 +3521,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//1718570003_PCB_HEADERS.pdf"
-			(at 149.86 290.17 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 149.86 318.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,8 +3533,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "KK 254 RPC Pin Header right angle 3way Molex 171857 Series, 2.54mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 4A"
-			(at 133.35 95.25 0)
+		(property "Description" "Conn Shrouded Header HDR 3 POS 2.5mm Solder RA Thru-Hole Box"
+			(at 133.35 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3691,20 +3544,8 @@
 				)
 			)
 		)
-		(property "Height" "6.35"
-			(at 149.86 490.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "538-171857-0003"
-			(at 149.86 590.17 0)
+		(property "Height" "6.1"
+			(at 149.86 518.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3715,8 +3556,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-0003?qs=vOeJqewp7jDlEJ%252B5k08q3w%3D%3D"
-			(at 149.86 690.17 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 149.86 618.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3727,8 +3568,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
-			(at 149.86 790.17 0)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 149.86 718.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3739,8 +3580,20 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "171857-0003"
-			(at 149.86 890.17 0)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 149.86 818.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S3B-XH-A-1 (LF)(SN)"
+			(at 149.86 918.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3752,18 +3605,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "30bc407c-cc36-43ab-8e1f-f27f10f5d0f5")
+			(uuid "5523b8bd-0aae-4634-832c-c8a3f02c5065")
 		)
 		(pin "1"
-			(uuid "0a29ac12-ca66-4552-b5d3-89c0260b783d")
+			(uuid "fe7ca033-6bb0-4227-9358-ad2715febc50")
 		)
 		(pin "3"
-			(uuid "4ca65419-51c2-4dc7-b4df-1374d737e0c4")
+			(uuid "f63ff082-c415-4c78-a908-023d9c9d803a")
 		)
 		(instances
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
-					(reference "J403")
+					(reference "J404")
 					(unit 1)
 				)
 			)
@@ -4801,6 +4654,153 @@
 			(project "engineering_plane"
 				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
 					(reference "#PWR0411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eng_plane_lib:S3B-XH-A-1__LF__SN_")
+		(at 133.35 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f91ceb3e-7414-49a9-ab36-e3a25be54fc2")
+		(property "Reference" "J402"
+			(at 149.86 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S3B-XH-A-1__LF__SN_"
+			(at 149.86 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "eng_plane_lib:S3BXHA1LFSN"
+			(at 149.86 168.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 149.86 268.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Conn Shrouded Header HDR 3 POS 2.5mm Solder RA Thru-Hole Box"
+			(at 133.35 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.1"
+			(at 149.86 468.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 149.86 568.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 149.86 668.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 149.86 768.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S3B-XH-A-1 (LF)(SN)"
+			(at 149.86 868.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "413e1d3f-ba26-4b19-a910-9b6484f8086c")
+		)
+		(pin "1"
+			(uuid "29060ae1-f81d-458d-8bff-1f07f6863f94")
+		)
+		(pin "3"
+			(uuid "efb97fcc-031d-494f-8ff3-13567337becd")
+		)
+		(instances
+			(project "engineering_plane"
+				(path "/f9a2ded0-d803-4be9-b2f5-4dda0f6b4d9a/ab5c4772-15ec-4a1e-9676-74a5def5e337"
+					(reference "J402")
 					(unit 1)
 				)
 			)
